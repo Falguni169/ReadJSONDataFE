@@ -1,0 +1,13 @@
+<div>    
+  <h2>User List</h2>
+  <div class="container">
+   <table class="table table-striped">
+     <tbody>
+       <tr *ngFor="let user of userList; let i = index;">
+         <td>{{ user.first_name }}</td>
+         <td>{{ user.last_name  }}</td>
+       </tr>
+     </tbody>
+   </table>
+ </div>
+</div>
